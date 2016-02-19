@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="details.css">
+
+  <title>QuizzTime</title>
+</head>
+<body>
+
+  <h1>Which movie is from <%=@movies[@randomindex][2]%></h1>
+
+<div>
+  <% count = 0 %>
+
+  <% @movies.each do |movie|%>
+
+  
+
+  <a href="/<% if count == @randomindex%>correct<% else%>incorrect<% end%>">
+
+  <img class="imagen"src="<%=movie[1]%>" >
+  </a>
+  <% count += 1%>
+  <% end%>
+</div>
+</body>
+</html>
+
+
