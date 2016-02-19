@@ -1,0 +1,70 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+div {
+  font-size: 1.6rem;
+}
+
+.content {
+  border: 0.3px solid black;
+  font-size: 1.6rem;
+  background-color: white;
+}
+
+.new-info {
+  padding-top: 0.5rem;
+  height: 5rem;
+
+}
+
+.new-info p {
+  margin-top: 0;
+  display: inline-block;
+}
+
+img {
+  height: 4rem;
+  width: 4rem;
+  display: inline-block;
+}
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.list-of-tags {
+  list-style: none;
+}
+
+.list-of-tags .li {
+  display: inline-block;
+  float: left;
+}
+
+.img-square {
+  margin: 0.4rem;
+}
+
+.container {
+  float: left;
+  margin: 3rem;
+}

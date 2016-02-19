@@ -1,0 +1,18 @@
+.row {
+  overflow: hidden;
+}
+
+.column {
+  margin: auto;
+  height: 2rem;
+  background-color: orange;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%
+  }
+}
